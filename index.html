@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Conversor de Moneda Nacional</title>
+</head>
+
+<body>
+    <header>
+        <hr>
+        <h1>Conversor de Moneda Nacional</h1>
+        <hr>
+    </header>
+    <main>
+        <h2>Pesos CLP</h2>
+        <input class="inputSelector" type="text" id="inputValorPesos">
+        <h3>Moneda a Convertir</h3>
+        <select class="inputSelector" name="" id="selectorDivisa">
+            <option value="">-SELECCIONE DIVISA-</option>
+            <option value="DOLAR">DOLAR</option>
+            <option value="EURO">EURO</option>
+            <option value="UF">UF</option>
+            <option value="UTM">UTM</option>
+        </select>
+
+        <button  class="botonBuscar" id="botonConversion">Buscar</button>
+        <p>Resultado: $<span id="resultadoConversión"></span></p>
+
+        <h1>Historial de Divisa</h1>
+        <div class="contenedorGrafico">
+            <canvas class="grafico" id="graficoDivisas"></canvas>
+        </div>
+    </main>
+    <script src="assets/js/scritps.js"></script>
+
+</body>
+
+</html>
