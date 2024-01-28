@@ -5,29 +5,32 @@ body {
     background-color: black;
     color: white;
 }
+
 header {
-        max-width: 600px;
-        text-align: center;
-        margin: 0 auto; 
-        padding: 10px;
-  
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+
 }
+
 hr {
     background-color: aqua;
 }
+
 main {
-        max-width: 600px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: grey;
-        border: 3px solid black;
-        padding: 10px;
-        border-radius: 5px;
-        box-sizing: border-box;
-        margin-top: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 15px;
 }
 
 .inputSelector {
@@ -47,9 +50,20 @@ main {
     color: white;
     border-radius: 5px;
 }
+
+section {
+
+        max-width: 800px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+
+  
+}
+
 .grafico {
     background-color: white;
-    width: 500px;
+    width: 800px;
     height: 300px;
 
 }
